@@ -11,6 +11,12 @@
 
 ## ✨ Features
 
+### 🤖 Agent Dashboard
+- **Agent Status Panel** - Real-time agent state (idle/running/paused/error/stopped)
+- **Model Selection** - Support for multiple AI models (Claude, GPT, Gemini)
+- **Backend Management** - Local, Docker, Remote, or Cloud backend connections
+- **Control Buttons** - Start, Pause, Resume, Stop agent actions
+
 ### 💬 AI Chat Interface
 - Real-time messaging with AI agent
 - Message types: thoughts, actions, and text responses
@@ -105,20 +111,26 @@ openhands-clone/
 ├── package.json            # Dependencies
 ├── src/
 │   ├── app/                # Next.js app router
-│   ├── components/         # React components
-│   │   ├── EvoClaw/        # Soul & Memory system
+│   ├── components/
+│   │   ├── Agent/          # Agent dashboard components
+│   │   │   ├── AgentStatus.tsx
+│   │   │   ├── ConversationHistory.tsx
+│   │   │   └── AgentActionsLog.tsx
+│   │   ├── EvoClaw/       # Soul & Memory system
 │   │   │   ├── SoulPanel.tsx
 │   │   │   ├── MemoryPanel.tsx
 │   │   │   └── EvolutionPanel.tsx
-│   │   ├── LeftPanel/      # Chat interface
+│   │   ├── LeftPanel/     # Chat interface
 │   │   ├── Workspace/      # Terminal, Editor, Browser
-│   │   └── shared/         # Common components
+│   │   └── shared/        # Common components
 │   ├── hooks/              # Custom React hooks
 │   ├── store/              # Zustand state management
 │   │   ├── index.ts        # Main store
+│   │   ├── agent.ts        # Agent store
 │   │   └── evoclaw.ts      # EvoClaw store
-│   └── types/              # TypeScript definitions
+│   └── types/
 │       ├── index.ts
+│       ├── agent.ts         # Agent types
 │       └── evoclaw.ts      # EvoClaw types
 ```
 
