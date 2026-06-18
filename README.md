@@ -17,6 +17,30 @@
 - Agent status indicators (running/stopped)
 - Auto-scroll to latest messages
 
+### 🧬 EvoClaw - Soul & Memory System
+Inspired by [EvoClaw](https://github.com/antono4/EvoClaw) framework:
+
+#### Soul Panel
+- **Structured Soul Documents** - Agent identity organized into sections (Personality, Philosophy, Boundaries, Continuity)
+- **Tag System** - `[CORE]` (immutable) and `[MUTABLE]` (evolvable) beliefs
+- **Visual Representation** - Color-coded entries by section and tag
+
+#### Memory Panel
+- **Three-Tier Memory System**:
+  - **Routine** - Standard tasks and everyday exchanges (gray)
+  - **Notable** - Meaningful moments and feedback (yellow)
+  - **Pivotal** - High-impact learning events (purple)
+- **Experience Logging** - Track all interactions with source and tags
+
+#### Evolution Center
+- **Reflections** - Structured analysis of notable experiences
+- **Proposals** - Soul change proposals with full provenance
+- **Governance Controls**:
+  - `Autonomous` - Auto-apply MUTABLE changes
+  - `Supervised` - Review changes before applying
+  - `Gated` - Manual approval for all changes
+- **Evolution History** - Timeline of all applied changes
+
 ### 🖥️ Terminal Emulator
 - Multiple terminal sessions
 - Command history (up/down arrows)
@@ -42,6 +66,14 @@
 | `Ctrl+2` | Switch to Editor |
 | `Ctrl+3` | Switch to Browser |
 | `Ctrl+K` | Open Settings |
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **UI**: React 18, TypeScript, Tailwind CSS
+- **State Management**: Zustand
+- **Code Editor**: Monaco Editor
+- **Icons**: Lucide React
 
 ## 🚀 Getting Started
 
@@ -74,25 +106,26 @@ openhands-clone/
 ├── src/
 │   ├── app/                # Next.js app router
 │   ├── components/         # React components
+│   │   ├── EvoClaw/        # Soul & Memory system
+│   │   │   ├── SoulPanel.tsx
+│   │   │   ├── MemoryPanel.tsx
+│   │   │   └── EvolutionPanel.tsx
 │   │   ├── LeftPanel/      # Chat interface
 │   │   ├── Workspace/      # Terminal, Editor, Browser
 │   │   └── shared/         # Common components
 │   ├── hooks/              # Custom React hooks
 │   ├── store/              # Zustand state management
+│   │   ├── index.ts        # Main store
+│   │   └── evoclaw.ts      # EvoClaw store
 │   └── types/              # TypeScript definitions
+│       ├── index.ts
+│       └── evoclaw.ts      # EvoClaw types
 ```
-
-## 🛠️ Tech Stack
-
-- **Framework**: Next.js 14 (App Router)
-- **UI**: React 18, TypeScript, Tailwind CSS
-- **State Management**: Zustand
-- **Code Editor**: Monaco Editor
-- **Icons**: Lucide React
 
 ## 🙏 Acknowledgments
 
 - Inspired by [OpenHands](https://github.com/All-Hands-AI/OpenHands) - The official AI coding assistant
+- Inspired by [EvoClaw](https://github.com/antono4/EvoClaw) - Soul & memory management framework for AI agents
 - Built with [Monaco Editor](https://microsoft.github.io/monaco-editor/)
 - Icons by [Lucide React](https://lucide.dev/)
 
