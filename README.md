@@ -1,11 +1,13 @@
 # OpenHands Clone
 
-🚀 A powerful, web-based AI coding assistant interface inspired by OpenHands. Built with Next.js, React, TypeScript, and Tailwind CSS.
+🚀 A powerful, web-based AI coding assistant interface inspired by [OpenHands](https://github.com/All-Hands-AI/OpenHands). Built with Next.js, React, TypeScript, and Tailwind CSS.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?style=flat-square&logo=typescript)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css)
+
+> ⚠️ **Note:** This is a web-based UI clone inspired by the original [OpenHands](https://github.com/All-Hands-AI/OpenHands) project. It provides a browser-based interface for AI-assisted coding workflows.
 
 ## ✨ Features
 
@@ -73,8 +75,8 @@ openhands-clone/
 │   ├── app/                # Next.js app router
 │   ├── components/         # React components
 │   │   ├── LeftPanel/      # Chat interface
-│   │   ├── Workspace/       # Terminal, Editor, Browser
-│   │   └── shared/          # Common components
+│   │   ├── Workspace/      # Terminal, Editor, Browser
+│   │   └── shared/         # Common components
 │   ├── hooks/              # Custom React hooks
 │   ├── store/              # Zustand state management
 │   └── types/              # TypeScript definitions
@@ -87,6 +89,12 @@ openhands-clone/
 - **State Management**: Zustand
 - **Code Editor**: Monaco Editor
 - **Icons**: Lucide React
+
+## 🙏 Acknowledgments
+
+- Inspired by [OpenHands](https://github.com/All-Hands-AI/OpenHands) - The official AI coding assistant
+- Built with [Monaco Editor](https://microsoft.github.io/monaco-editor/)
+- Icons by [Lucide React](https://lucide.dev/)
 
 ## 📝 License
 
