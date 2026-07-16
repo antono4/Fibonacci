@@ -1,5 +1,8 @@
 # OpenHands Clone
 
+> **Created by Antono**
+
+
 🚀 A powerful, web-based AI coding assistant interface inspired by [OpenHands](https://github.com/All-Hands-AI/OpenHands). Built with Next.js, React, TypeScript, and Tailwind CSS.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
