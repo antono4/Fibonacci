@@ -1,2 +1,32 @@
-Last updated: 2026-09-07 05:19:48 WIB
-Last updated: 2026-09-07 06:06:56 WIB
+# openhands-clone
+
+
+
+## 📋 Overview
+
+This repository contains **49 files** and is built with the following technologies:
+
+Node.js, HTML, JavaScript
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Node.js, HTML, JavaScript
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-07 06:17:41 WIB*
