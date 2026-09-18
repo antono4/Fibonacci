@@ -1,79 +1,67 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">OpenHands 👋</h1>
+<h1 align="center">OpenHands - AI Coding Assistant 👋</h1>
 
 <p align="center">
-  <em>📐 Fibonacci Sequence Visualizer - Beautiful mathematical visualizations</em>
+  <strong>A powerful, web-based AI coding assistant interface with integrated terminal, code editor, and browser preview. Code smarter, not harder.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/Fibonacci"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/Fibonacci-blue?logo=github"></a>
   <a href="https://antono4.github.io/Fibonacci/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-44-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/Fibonacci">
+  <img alt="Files" src="https://img.shields.io/badge/Files-47-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 08:42:40 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`Fibonacci`** adalah proyek Node.js yang dibangun dengan HTML, CSS, JavaScript, React.
-Situs ini diterbitkan melalui **GitHub Pages** dan dapat diakses di [`https://antono4.github.io/Fibonacci/`](https://antono4.github.io/Fibonacci/).
+Repository **`Fibonacci`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/Fibonacci/`](https://antono4.github.io/Fibonacci/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 Fibonacci/
-.eslintrc.json
-.github/
-  workflows/
-.gitignore
-LICENSE
-index.html
-next-env.d.ts
-next.config.js
-package-lock.json
-package.json
-postcss.config.js
-src/
-  app/
-  components/
-  hooks/
-  store/
-  types/
-tailwind.config.ts
-tsconfig.json
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `HTML`
 - `CSS`
 - `JavaScript`
 - `React`
 
-> Total **44 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **47 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh Node.js:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-npm install
-npm run dev
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/Fibonacci/](https://antono4.github.io/Fibonacci/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 08:42:40 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
